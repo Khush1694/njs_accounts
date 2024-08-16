@@ -21,6 +21,15 @@ class BasicDog {
         this.attr1 = this.attr1 + this.attr2;
     }
 }
+class BasicDog {
+    attr1 = "mammal"
+    attr2 = "dog"
+
+    test() {
+        const attr3 = "test";
+        this.attr1 = this.attr1 + this.attr2;
+    }
+}
 
 class Dog extends BasicDog {
     constructor(testName) {
